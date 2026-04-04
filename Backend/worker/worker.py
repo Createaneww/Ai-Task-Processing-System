@@ -41,7 +41,6 @@ redis_client = redis.Redis(
     decode_responses=True,
     socket_keepalive=True
 )
-
 logger.info(f"Worker started. Listening on '{QUEUE_NAME}'...")
 
 # ── Task processors ────────────────────────────────
